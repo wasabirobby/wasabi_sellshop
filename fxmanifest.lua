@@ -23,5 +23,6 @@ shared_scripts {
 
 dependencies {
   'es_extended',
+  'qtarget',
   'ox_lib'
 }
