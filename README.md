@@ -8,6 +8,13 @@
 - ox_lib
 - es_extended
 
+## Features
+- Multiple sell shops
+- ox_lib utilized for cached player ped, context menu, input dialog, notifications, and callbacks
+- Configurable / optional blips
+- Configurable payment currency per item
+- 0.00 ms idle
+
 ### Previews
 https://media.discordapp.net/attachments/894737355418771506/1019657341601329222/unknown.png
 https://media.discordapp.net/attachments/894737355418771506/1019657425030230066/unknown.png
