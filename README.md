@@ -5,8 +5,8 @@
 **Pretty self-explanatory in the `config.lua`**
 
 ### Dependencies
-- ox_lib
-- qtarget
+- ox_lib - https://github.com/overextended/ox_lib/releases
+- qtarget- https://github.com/overextended/qtarget/releases
 - es_extended
 
 ## Features
