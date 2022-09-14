@@ -90,8 +90,8 @@ CreateThread(function()
             name=i.."_sell_shop",
             heading=Config.SellShops[i].blip.heading,
             debugPoly=false,
-            minZ=Config.SellShops[i].coords.z-0.9,
-            maxZ=Config.SellShops[i].coords.z+0.9
+            minZ=Config.SellShops[i].coords.z-1.5,
+            maxZ=Config.SellShops[i].coords.z+1.5
         }, {
             options = {
                 {
