@@ -1,15 +1,21 @@
 -----------------For support, scripts, and more----------------
 ----------------- https://discord.gg/XJFNyMy3Bv ---------------
 ---------------------------------------------------------------
-ESX = nil
+if Config.OldESX then
+	ESX = nil
+else
+	ESX = exports["es_extended"]:getSharedObject()
+end
 
 -- Start up thread
-CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Wait(0)
-	end
-end)
+if Config.OldESX then
+	CreateThread(function()
+		while ESX == nil do
+			TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+			Wait(0)
+		end
+	end)
+end
 
 addCommas = function(n)
 	return tostring(math.floor(n)):reverse():gsub("(%d%d%d)","%1,")
