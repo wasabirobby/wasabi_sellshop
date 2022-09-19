@@ -1,9 +1,12 @@
 -----------------For support, scripts, and more----------------
 ----------------- https://discord.gg/XJFNyMy3Bv ---------------
 ---------------------------------------------------------------
-ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+if not Config.OldESX then
+    ESX = exports["es_extended"]:getSharedObject()
+else
+    ESX = nil
+    TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+end
 
 lib.callback.register('ws_sellshop:sellItem', function(source, data)
     local xPlayer = ESX.GetPlayerFromId(source)
