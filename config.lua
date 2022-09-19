@@ -3,6 +3,8 @@
 ---------------------------------------------------------------
 Config = {}
 
+Config.OldESX = false -- If using an ESX version older than Legacy(If missing exports method of receiving ESX object)
+
 Config.SellShops = {
 --[[{ --EXAMPLE
         coords = vec3(123.22, 222.22, 12.22), -- Coords of sell shop
