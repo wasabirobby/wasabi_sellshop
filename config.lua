@@ -1,7 +1,10 @@
 -----------------For support, scripts, and more----------------
 --------------- https://discord.gg/wasabiscripts  -------------
 ---------------------------------------------------------------
+
 Config = {}
+
+Config.checkForUpdates = true -- Check for Updates?
 
 Config.SellShops = {
 --[[{ --EXAMPLE
