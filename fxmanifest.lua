@@ -9,7 +9,7 @@ description 'Wasabi Sell Shop'
 version '1.0.0'
 
 client_scripts {
-    'client/**.lua'
+  'client/**.lua'
 }
 
 server_scripts {
