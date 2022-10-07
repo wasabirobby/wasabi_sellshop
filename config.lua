@@ -1,9 +1,10 @@
 -----------------For support, scripts, and more----------------
 --------------- https://discord.gg/wasabiscripts  -------------
 ---------------------------------------------------------------
+
 Config = {}
 
-Config.OldESX = false -- If using an ESX version older than Legacy(If missing exports method of receiving ESX object)
+Config.checkForUpdates = true -- Check for Updates?
 
 Config.SellShops = {
 --[[{ --EXAMPLE

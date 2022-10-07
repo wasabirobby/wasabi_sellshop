@@ -1,6 +1,7 @@
 -----------------For support, scripts, and more----------------
 --------------- https://discord.gg/wasabiscripts  -------------
 ---------------------------------------------------------------
+
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
@@ -9,7 +10,7 @@ description 'Wasabi Sell Shop'
 version '1.0.0'
 
 client_scripts {
-    'client/**.lua'
+  'client/**.lua'
 }
 
 server_scripts {
