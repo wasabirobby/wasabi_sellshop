@@ -1,4 +1,4 @@
-# ws_sellshop
+# wasabi_sellshop
 
 ## Wasabi's Sell Shop
 
